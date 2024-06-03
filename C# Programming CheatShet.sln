@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Programming CheatShet", "C# Programming CheatShet.csproj", "{DEBD8C76-B2EA-43FD-A12C-22944235F39F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBD8C76-B2EA-43FD-A12C-22944235F39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBD8C76-B2EA-43FD-A12C-22944235F39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBD8C76-B2EA-43FD-A12C-22944235F39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBD8C76-B2EA-43FD-A12C-22944235F39F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A580331F-812E-47A3-A054-492CE6DDE623}
+	EndGlobalSection
+EndGlobal
