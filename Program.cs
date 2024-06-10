@@ -18,7 +18,6 @@ namespace C__Programming_CheatSheat
             do
             {
                 MenuSelection.MainMenu();
-
             } while (!exitProgram);
         }//end of Main
     }//end of Program (class)
