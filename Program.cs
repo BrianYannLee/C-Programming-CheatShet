@@ -7,14 +7,19 @@
 using System.Text.RegularExpressions;
 
 //----------------------------------------------------------------------------
-namespace C__Programming_CheatShet
+namespace C__Programming_CheatSheat
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            MenuSelection.MainMenu();
+            bool exitProgram = false;
 
+            do
+            {
+                MenuSelection.MainMenu();
+
+            } while (!exitProgram);
         }//end of Main
     }//end of Program (class)
     public class InputChecker
@@ -62,11 +67,12 @@ namespace C__Programming_CheatShet
     }//end of InputChecker(class)
     public class MenuSelection
     {
-        public static void MainMenu()
+        public static bool MainMenu()
         {
             const int firstChoice = 1;
             const int lastChoice = 4;
             int userInput;
+            bool exitProgram = false;
 
             Console.WriteLine("Please Select Method");
             Console.WriteLine("1. Method 1");
@@ -80,23 +86,31 @@ namespace C__Programming_CheatShet
             {
                 case 1:
                     Console.WriteLine("Running Method1");
+                    Console.WriteLine("-------------------");
                     MethodList.Method1();
+                    Console.WriteLine();
                     break;
                 case 2:
                     Console.WriteLine("Running Method2");
+                    Console.WriteLine("-------------------");
                     MethodList.Method2();
+                    Console.WriteLine();
                     break;
                 case 3:
                     Console.WriteLine("Running Method3");
+                    Console.WriteLine("-------------------");
                     MethodList.Method3();
+                    Console.WriteLine();
                     break;
                 case 4:
                     Console.WriteLine("Exiting Program");
+                    exitProgram = true;
                     break;
                 default:
                     Console.WriteLine("An Error has occured in MainMenu");
                     break;
             }
+            return exitProgram;
         }//end of MainMenu(method)
 
     }//end of MenuSelection(class)
@@ -105,14 +119,14 @@ namespace C__Programming_CheatShet
         public static void Method1()
         {
 
-        }
+        }//end of Method1(method)
         public static void Method2()
         {
 
-        }
+        }//end of Method2(method)
         public static void Method3()
         {
 
-        }
-    }
+        }//end of Method3(method)
+    }//end of MethodList(class)
 }
